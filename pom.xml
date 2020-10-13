@@ -6,7 +6,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>eurekaServer</module>
-        <module>productDataservice</module>
+        <module>productDataService</module>
+        <module>productViewServiceRibbon</module>
+        <module>productViewServiceFeigns</module>
+        <module>config-server</module>
     </modules>
     <name>springcloud</name>
     <description>springcloud</description>
