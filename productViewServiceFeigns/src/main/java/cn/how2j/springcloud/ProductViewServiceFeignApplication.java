@@ -51,7 +51,7 @@ public class ProductViewServiceFeignApplication {
             port = defaultPort;
         }
         if (!NetUtil.isUsableLocalPort(port)) {
-            System.err.printf("端口%d被占用了，无法启动%n", port);
+            System.err.printf("端口%d被占用了s，无法启动%n", port);
             System.exit(1);
         }
         new SpringApplicationBuilder(ProductViewServiceFeignApplication.class).properties("server.port=" + port).run(args);
